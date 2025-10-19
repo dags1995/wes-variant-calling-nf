@@ -1,0 +1,19 @@
+# Nextflow files
+.work/
+.nextflow*
+
+# Pipeline outputs
+results/**
+!results/**/.gitkeep
+
+# Raw data
+data/**
+!data/**/.gitkeep
+!data/**/README.md
+
+# Other junk files
+.DS_Store
+Thumbs.db
+*.log
+
+
