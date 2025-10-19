@@ -27,7 +27,7 @@ The workflow will be orchestrated with **Nextflow** and prepared to be executed 
 ---
 
 ## Innitial Folder Structure
-
+'''
 wes-variant-calling-nf/
 ├── data/		
 │   ├── raw/		# user-provided FASTQ files
@@ -38,7 +38,7 @@ wes-variant-calling-nf/
 │   └── vcf/
 ├── scripts/		# optional helper scripts
 └── workflow/		# Nextflow pipelines files (main.nf, config, modules)
-
+'''
 
 ---
 
